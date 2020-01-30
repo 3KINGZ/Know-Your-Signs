@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Permanent+Marker|Righteous|Roboto&display=swap" rel="stylesheet">    <title>Know-Your-Zodiac-Signs</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title>Know-Your-Zodiac-Signs</title>
+</head>
+<body>
+    <div>
+    <h1>Know Your Zodiac <br>Signs</h1>
+    </div>
+    <div class="container">
+        <label>Date:</label><input id="date" type="number" min="1" max="31">
+        <label id="month-label">Month:</label>
+        <select id="month">
+            <option value="January">January</option>
+            <option value="Febuary">Febuary</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+        </select>
+        <br>
+        <button>Show My Signs</button>
+        <div id="result">
+            <div id="name">
+
+            </div>
+            <div id="image">
+            </div>
+            <div id="traits">
+
+            </div>
+            <div id="personalities">
+
+            </div>
+            <div id="tweet">
+                <script>window.twttr = (function(d, s, id){var js, fjs = d.getElementsByTagName(s)[0],t = window.twttr || {};if (d.getElementById(id)) return t;js = d.createElement(s);js.id = id;js.src = "https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js, fjs);t._e = [];t.ready = function(f) {t._e.push(f);};return t;}(document, "script", "twitter-wjs"));</script>
+            </div>
+        </div>
+    </div>
+    <script src="sign-objects.js"></script>
+    <script src="app.js"></script>
+    <footer><p>Made with ❤️ by &copy;victor kenneth</p></footer>
+</body>
+</html>

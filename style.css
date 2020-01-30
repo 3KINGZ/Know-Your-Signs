@@ -1,0 +1,85 @@
+* {
+    Margin: 0;
+    padding: 0
+}
+
+body {
+    background-image: url(../images/igor-peftiev-JPQwuciINLY-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+h1 {
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(148, 233, 123);
+    font-family: 'Bowlby One SC',
+        cursive;
+}
+
+.container {
+    border: 1px solid rgb(35, 245, 235);
+    border-width: 0.4em;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 2%;
+    text-align: center;
+    font-family: Arial,
+        Helvetica,
+        sans-serif;
+    /* width: 120em; */
+    box-sizing: border-box;
+    background-color: rgba(233, 149, 162, 0.945);
+    border-radius: 5px;
+}
+
+li {
+    text-align: center;
+    list-style-type: none;
+    font-family: 'Roboto',
+        sans-serif;
+}
+
+button {
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: rgb(6, 89, 117);
+}
+
+#month-label {
+    margin-left: 10px;
+}
+
+.underline {
+    text-decoration: underline;
+    font-family: 'Righteous',
+        cursive;
+}
+
+h2 {
+    font-family: 'Permanent Marker',
+        cursive;
+}
+
+#traits {
+    margin-bottom: 15px;
+}
+
+#tweet {
+    margin-top: 10px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(35, 245, 235);
+    color: white;
+    text-align: center;
+}
