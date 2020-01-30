@@ -4,10 +4,7 @@
 }
 
 body {
-    background-image: url(/images/igor-peftiev-JPQwuciINLY-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: fixed;
+    background-color: black;
 }
 
 h1 {
@@ -32,7 +29,7 @@ h1 {
         sans-serif;
     /* width: 120em; */
     box-sizing: border-box;
-    background-color: rgba(233, 149, 162, 0.945);
+    background-color: rgba(248, 130, 148, 0.945);
     border-radius: 5px;
     margin-bottom: 10px;
 }
@@ -50,6 +47,7 @@ button {
     margin-bottom: 20px;
     border-radius: 5px;
     background-color: rgb(6, 89, 117);
+    color: lightgray;
 }
 
 #month-label {
@@ -80,7 +78,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(35, 245, 235);
+    background-color: black;
     color: white;
     text-align: center;
 }
