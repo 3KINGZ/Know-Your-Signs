@@ -1,6 +1,6 @@
 //variable declaration for dom elements
 let message;
-let dynamicCurl = "https://elated-kirch-933a74.netlify.com/"
+let dynamicCurl = "https://know-your-signs.netlify.com/"
 let nameContainer = document.querySelector("#name");
 let imgContainer = document.querySelector("#image");
 let traits = document.querySelector("#traits");
