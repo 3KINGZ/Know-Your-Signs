@@ -24,7 +24,7 @@ let signs = {
         personalities: ["Changeable and moody", "Overemotional and touchy", "Clinging and unable to let go"]
     },
     leo: {
-        name: "Cancer",
+        name: "Leo",
         image: "icon/009-leo.png",
         traits: ["Generous and warmhearted", "Creative and enthusiastic", "Broad-minded and expansive", "Faithful and loving"],
         personalities: ["Pompous and patronizing", "Bossy and interfering", "Dogmatic and intolerant"]
